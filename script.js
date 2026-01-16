@@ -3,5 +3,5 @@ const profilePic = document.getElementById("profile-pic");
 
 // Add click event listener
 profilePic.addEventListener("click", function () {
-    alert("Hello! Thanks for clicking my photo "); 
+    alert("Hello! Thanks for clicking this image. "); 
 });
