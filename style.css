@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+}
+
+.box {
+    border: 2px double #b9dbdb;
+    padding: 10px;
+    display: inline-block; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #A2D4D2;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #59A6A4;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+section h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #929A99;
+}
+
+.about-me img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.album-grid img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.album-grid img:hover {
+    transform: scale(1.05);
+}
+
+.about-me, .career-goals {
+    background-image: url('https://lylisouo.neocities.org/1040g2sg315fogtvbgqag5pe4cbt2ftrm9o7a66g.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+a {
+    color: #59A6A4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.collect{
+    text-decoration: underline;
+}
